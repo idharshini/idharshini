@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" preserveAspectRatio="none">
+
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#081B33"/>
+      <stop offset="100%" stop-color="#0A192F"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#7DD3FC"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="220" fill="url(#bg)"/>
+
+  <g opacity=".08" stroke="#38BDF8">
+    <path d="M120 30 V190"/>
+    <path d="M300 30 V190"/>
+    <path d="M600 30 V190"/>
+    <path d="M900 30 V190"/>
+    <path d="M1080 30 V190"/>
+  </g>
+
+  <path d="M0 110 C150 50 300 160 600 90 C850 40 1030 150 1200 90"
+        stroke="url(#line)"
+        stroke-width="3"
+        fill="none"
+        filter="url(#glow)">
+    <animate attributeName="d"
+      dur="8s"
+      repeatCount="indefinite"
+      values="
+      M0 110 C150 50 300 160 600 90 C850 40 1030 150 1200 90;
+      M0 90 C150 150 300 40 600 110 C850 160 1030 50 1200 110;
+      M0 110 C150 50 300 160 600 90 C850 40 1030 150 1200 90"/>
+  </path>
+
+  <g fill="#00E5FF">
+    <circle cx="170" cy="92" r="4">
+      <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="600" cy="90" r="5">
+      <animate attributeName="r" values="5;8;5" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1030" cy="102" r="4">
+      <animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="600"
+        y="155"
+        text-anchor="middle"
+        font-family="JetBrains Mono"
+        font-size="24"
+        fill="#E2F8FF"
+        font-weight="600">
+
+        Building Tomorrow's Embedded Systems
+
+  </text>
+
+  <text x="600"
+        y="182"
+        text-anchor="middle"
+        font-family="Inter"
+        font-size="15"
+        fill="#7DD3FC">
+
+        STM32 • ESP32 • Industrial IoT • Firmware
+
+  </text>
+
+</svg>
