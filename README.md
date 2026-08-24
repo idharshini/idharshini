@@ -15,77 +15,55 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<p align="center"><img width="100%" src="./assets/divider.svg"/></p>
 
 ## About Me
 
-<table>
-<tr>
-<td width="65%" valign="top">
+<table><tr><td width="65%" valign="top">
 
-### Embedded • Firmware • Industrial IoT
+I'm an **Electrical & Electronics Engineering** student passionate about Embedded Systems and Industrial IoT.
 
-- ⚡ STM32 & ESP32 Firmware
-- 🧠 Zephyr RTOS & Linux
-- 📡 MQTT & Modbus RTU
-- 🌐 Industrial IoT
-- 🚀 Edge Computing
+### Currently Working On
 
-**Projects**
+- STM32 Register Programming
+- ESP32 + MQTT + Modbus RTU
+- Zephyr RTOS
+- Linux & Embedded Development
+- Portfolio-grade firmware projects
+
+### Featured Projects
 
 - Energy Monitoring (ESP32 + RS485 + Modbus + MQTT)
 - VEGA IoT Platform (Renesas RA6E2)
 - Smart Classroom Automation
 - LoRa + Bluetooth Communication
-- Li‑Fi V2V Prototype
+- Li-Fi V2V Prototype
 - Smart Irrigation
 
-</td>
-<td width="35%" align="center">
-<img src="./assets/stm32-chip.svg" width="230"/>
-</td>
-</tr>
-</table>
+</td><td width="35%" align="center">
 
-<img src="./assets/divider.svg" width="100%"/>
+### Tech DNA
+
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python"/><br><br>
+<img src="https://skillicons.dev/icons?i=arduino,linux,git,github"/><br><br>
+<img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/><br><br>
+<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/><br><br>
+<img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipsemosquitto&logoColor=white"/>
+<img src="https://img.shields.io/badge/Modbus-0066CC?style=for-the-badge"/>
+
+</td></tr></table>
+
+<p align="center"><img width="100%" src="./assets/divider.svg"/></p>
 
 ## Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=c,cpp,python,bash"/>
-
-<img src="https://skillicons.dev/icons?i=arduino,raspberrypi,linux"/>
-
-<img src="https://skillicons.dev/icons?i=vscode,git,github,cmake"/>
-
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,mysql"/>
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,arduino,linux,git,github,vscode"/>
 
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
-
-## Engineering Dashboard
-
-| Module | Status |
-|--------|--------|
-| Firmware | 🟢 Online |
-| RTOS | 🟢 Running |
-| MQTT | 🟢 Active |
-| Linux | 🟢 Ready |
-
-```bash
-$ whoami
-Dharshini I
-
-$ current_focus
-→ Embedded Firmware
-→ Industrial IoT
-→ Zephyr RTOS
-→ Linux Drivers
-```
-
-<img src="./assets/divider.svg" width="100%"/>
+<p align="center"><img width="100%" src="./assets/divider.svg"/></p>
 
 ## GitHub Analytics
 
@@ -99,7 +77,7 @@ $ current_focus
 
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<p align="center"><img width="100%" src="./assets/divider.svg"/></p>
 
 ## Contribution Snake
 
@@ -109,19 +87,16 @@ $ current_focus
 
 </div>
 
-> Generated automatically with the GitHub Action in `.github/workflows/snake.yml`.
+> Enable **Actions** and run **Generate Snake** once after uploading.
 
-<img src="./assets/divider.svg" width="100%"/>
+<p align="center"><img width="100%" src="./assets/divider.svg"/></p>
 
 ## Connect
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/dharshini-i-424364333/"><img src="https://img.shields.io/badge/LinkedIn-00E5FF?style=for-the-badge&logo=linkedin&logoColor=0A192F"/></a>
-
 <a href="https://leetcode.com/u/idharshini/"><img src="https://img.shields.io/badge/LeetCode-38BDF8?style=for-the-badge&logo=leetcode&logoColor=0A192F"/></a>
-
-<a href="mailto:your_email@example.com"><img src="https://img.shields.io/badge/Email-00BFFF?style=for-the-badge&logo=gmail&logoColor=0A192F"/></a>
 
 </div>
 
