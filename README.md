@@ -186,9 +186,11 @@ Sensor-driven irrigation system that automates watering based on real-time soil 
 
 ## Contribution Snake
 
-> Not yet generated. Go to **Actions → Generate Snake Animation → Run workflow** — once it finishes, the snake will appear here automatically on your next visit. Add this line back in once it's live:
->
-> `<img src="https://raw.githubusercontent.com/idharshini/idharshini/output/github-contribution-grid-snake-dark.svg"/>`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/idharshini/idharshini/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/idharshini/idharshini/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/idharshini/idharshini/output/github-contribution-grid-snake-dark.svg">
+</picture>
 
 <p align="center"><img width="100%" src="./assets/divider.svg"/></p>
 
